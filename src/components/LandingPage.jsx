@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 const LandingPage = ({ setTheme, theme, setPlayers, players, gridSize, setGridSize }) => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#152938] w-full p-4">
+        <h1 className="font-[Atkinson Hyperlegible] font-bold text-[35px] text-white mb-14">
+            memory
+        </h1>
       <div className="bg-white w-full max-w-[327px] md:max-w-[400px] lg:max-w-[500px] rounded-xl shadow-lg p-6 md:p-8">
         {/* theme selection */}
         <h1 className="font-[Atkinson Hyperlegible] font-bold text-[15px] md:text-[18px] text-[#7191A5] mb-4">
